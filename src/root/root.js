@@ -1,6 +1,7 @@
 import React from "react";
 import Hooks from "../components/hooks";
 import Todo from "../components/Todo";
+import UseReducer from "../components/UseReducer";
 
 
 const Root = ()=> {
@@ -8,8 +9,9 @@ const Root = ()=> {
     <div>
         <Hooks/>
         <Todo />
+        <UseReducer />
     </div>
-   )
+   )  
 }
 
 
